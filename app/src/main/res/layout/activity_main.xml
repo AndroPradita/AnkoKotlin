@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#dfcad2">
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="HALO DUNIA"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnKlik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Klik" />
+</LinearLayout>
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kirim SMS" />
+
+        <Button
+            android:id="@+id/telpon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telpon" />
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pindah Layout"
+            android:id="@+id/pindah"/>
+
+    </LinearLayout>
+</ScrollView>
