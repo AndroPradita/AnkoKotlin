@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         sms.onClick {
-            sendSMS("089699993199", "halo gan")
+            sendSMS("089699993199", "halo coeg")
         }
 
         telpon.onClick{
