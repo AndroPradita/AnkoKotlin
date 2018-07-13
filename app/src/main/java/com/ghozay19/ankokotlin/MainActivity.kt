@@ -18,11 +18,11 @@ class MainActivity : AppCompatActivity() {
 
         btnKlik.onClick {
             tv1.setText("Ini Pakai Anko lho")
-            toast("Text Berubah kan...")
+            toast("Textnya Berubah kan...")
         }
 
         sms.onClick {
-            sendSMS("089699993199", "halo coeg")
+            sendSMS("089699993199", "halo gan")
         }
 
         telpon.onClick{
